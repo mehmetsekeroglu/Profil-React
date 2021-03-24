@@ -1,0 +1,182 @@
+/********************
+General Styling
+********************/
+*{
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/********************
+Typology
+********************/
+h4{
+    font-size: 18px;
+    text-align: center;
+    border-bottom:dotted 2px grey;
+    letter-spacing: 7px;
+    color: #2a6064;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+caption{
+    border-bottom: double 3px #2a6064;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 18px;
+    text-transform: capitalize;  
+    margin-bottom: 20px;
+    color: #2a6064;
+}
+
+
+/********************
+Colors
+********************/
+h3{
+    border-bottom: double 3px #2a6064;
+    color: #2a6064;
+}
+th{
+    background-color:rgb(156, 154, 154) ;
+    color: #1f494d;
+}
+
+tr:hover {
+    background-color: #53868b;
+    color: white;
+}
+
+a:active {
+    color: blue;
+}
+
+
+/********************
+Layout
+********************/
+main{
+    width: 100%;
+    background-color: rgb(138, 137, 145);
+}
+
+header{
+    background: #53868b;
+    width: 100%;
+    height: 130px;
+}
+
+#container{
+    display: flex;
+}
+
+#left-side{
+    background-color: #b1b4b4;
+}
+
+#right-side{
+    background-color: rgb(196, 183, 158);
+    margin-left: 5px;
+}
+
+#right-side section{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+progress{
+    float: right;
+    margin-right: 60px;
+}
+
+.social-media{
+    display: inline;
+    margin: 28px;
+}
+
+
+
+
+/********************
+Components
+********************/
+
+.header-info{
+    color: white;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 15px;  
+}
+
+hr{
+    margin: 0px 250px;
+}
+
+.profile-image{
+    max-width: 200px;
+    margin: 30px;
+    box-shadow:2px 2px 2px 2px gray ;
+    border-radius: 50%;
+}
+
+.social-media img{
+    width: 20px;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+#hobby-header{
+    text-align: center;
+}
+
+#skill, #language{
+    margin-left: 10px;
+}
+
+.location, .phone-number, .mailto{
+    background-color: gray;
+    box-shadow:2px 2px 2px 2px ;
+    width: 300px;
+    margin: auto;
+}
+
+h3 + p {
+    text-align: justify;
+}
+
+table{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+td{
+    text-transform: capitalize;
+}
+
+#hobby-header td{
+    padding: 10px;
+}
+
+#language>p{
+    color: #2a6064;
+    font-weight: bolder;
+}
+
+[alt*="Skill"]{
+    width: 30px;
+}
+
+[alt*="contact"]{
+    width: 20px; 
+}
+
+[alt|="Friends"], [alt$="Hobby"]{
+    width: 40px;
+}
