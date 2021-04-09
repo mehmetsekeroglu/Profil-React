@@ -1,6 +1,6 @@
 import './Profil.css';
 
-export default function Profil(){
+function Profil(){
     return(
         <div>
             <header>
@@ -295,3 +295,5 @@ export default function Profil(){
         </div>
     )
 }
+
+export default Profil; 
